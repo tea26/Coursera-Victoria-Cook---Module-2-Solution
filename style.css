@@ -1,0 +1,145 @@
+h1 
+{font-family: Helvetica, sans-serif;
+	text-align: center;
+	background-color: #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+
+p {
+	font-family: Helvetica, sans-serif;
+	margin-left: 5px;
+	padding-top: 25px;
+	padding-right: 15px;
+	padding-left: 15px;
+    }
+
+* {
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+	}
+
+.header1 {
+	background-color: #99FF99;
+	font-family: Helvetica, sans-serif;
+     border: solid black;
+     border-width: 1px;
+     width:80px;
+     text-align: center;
+     float:right;
+     margin-top: 0px;}
+	
+
+.header2 {
+	background-color: #BBDEFB;
+	font-family: Helvetica, sans-serif;
+     border: solid black;
+     border-width: 1px;
+     width:80px;
+     text-align: center;
+     float:right;
+     margin-top: 0px;}
+	
+
+.header3 {background-color: #FFD180;
+	     font-family: Helvetica, sans-serif;
+         border: solid black;
+         border-width: 1px;
+         width:80px;
+         text-align: center;
+         float:right;
+         margin-top: 0px;}
+
+
+
+
+.column1of3 {
+    width:300px;
+    float:left;
+	margin: 10px;
+	border-width: 1px;
+    border: solid black;
+	font-family: Helvetica, sans-serif;
+	background-color: #DCEDC8;
+}
+
+.column2of3 {
+  width: 300px;
+    float:left;
+	margin: 10px;
+    border-width: 1px;
+    border: solid black;
+	font-family: Helvetica, sans-serif;
+	background-color: #DCEDC8;}
+
+.column3of3 {
+   width: 300px;
+   float: left;
+	margin: 10px;
+    border-width: 1px;
+    border: solid black;
+	font-family: Helvetica, sans-serif;
+	background-color: #DCEDC8;}
+
+/* **********smaller devices *******/
+
+@media (max-width: 767px){
+    .content: {width: 100%; ;
+   
+	
+	}
+	.column1of3 {
+		width: 95%;
+	}
+	
+	.column2of3 {
+		width:95%;
+	}
+	.column3of3 {
+		width: 95%;
+	}
+}
+
+/****** tablet *****/
+@media (min-width: 768px) and (max-width: 991px){
+   .content:{width:100%;}
+
+	.column1of3 {
+		width: 47%;
+	}
+	
+	.column2of3 {
+		width:47%;
+		float: right;
+	}
+	.column3of3 {
+		width: 98%;
+	
+	}
+}
+
+/**********desktop *******/
+
+
+@media (min-width: 992px) and (max-width: 100%){ 
+	.content: {width: 100%;  }
+	.column1of3 {
+		width: 32.6666667%;
+		position: absolute;
+
+	}
+	.column2of3 {
+		width:32.6666667%;
+		position: absolute;
+	}
+	.column3of3 {
+		width: 32.6666667%;
+		position: absolute;
+	}
+}
+
+
